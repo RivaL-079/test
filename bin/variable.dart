@@ -6,12 +6,12 @@ void main() async {
   var nama4 = "L";
 
   var firstname = "R";
-  var lastname = "L";
+  final lastname = "I";
 
   firstname = "D";
-  lastname = "I";
 
   final array1 = [1, 2, 3];
+  const array2 = [1, 2, 3];
 
   array1[0] = 5;
 
@@ -23,6 +23,7 @@ void main() async {
   print("Nama depan saya $firstname");
   print("Nama belakang saya $lastname");
   print(array1);
+  print(array2);
 
   late var value = getvalue();
   print('Display value');
@@ -31,5 +32,5 @@ void main() async {
 
 String getvalue() {
   print('getvalue dipanggil');
-  return 'R';
+  return 'RIPALDI';
 }
